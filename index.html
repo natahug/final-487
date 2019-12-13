@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Final-Natalie Huggins</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+   <!-- Slick styles -->
+   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="row">
+    <div class="col-md-12">
+    <h1 id = "title">Final Project</h1>
+    <hr>
+    <p>Submitted by Natalie Huggins</p>
+    <p id = "reqs">Requirements:
+
+        <ul>Site should be responsive and have a good user experience on mobile and desktop. <span class = "points"> (10 points)</span></ul>
+
+        <ul>Site must load the external data from Google API URL <span class = "points"> (10 points)</span>
+        <a href= "https://www.googleapis.com/download/storage/v1/b/teaching-api/o/people.json?generation=1576123202877101&alt=media">https://www.googleapis.com/download/storage/v1/b/teaching-api/o/people.json?generation=1576123202877101&alt=media</a></ul>
+
+        <ul>Site must display a photo slider of your choice using external data from this data file. <span class = "points"> (10 points)</span>
+        <a href ="https://www.googleapis.com/download/storage/v1/b/teaching-api/o/photos.json?generation=1576123660992318&alt=media">https://www.googleapis.com/download/storage/v1/b/teaching-api/o/photos.json?generation=1576123660992318&alt=media</a></ul>
+         
+        <ul>Site must have a data visualization chart (pie, bar, column, etc.) comparing something from the data like sport or gender. <span class = "points"> (20 points)</span></ul>
+        
+        <ul>Site should display text generated from a mathematical operation populated by a variable such as "5 of the 10 people are baseball fans" or "the group is 50% women" <span class = "points"> (20 points)</span></ul>
+
+        <ul>Site should display every person in the data in an easy-to-read way that includes 
+        name, company, email, gender, sport, about, photo<span class = "points"> (20 points)</span></ul>
+
+        <ul>Design is clean, usable and pleasing to users relative to a 2 hour development time <span class = "points"> (10 points)</span></ul>.</ul>
+        
+         </p>
+        </div>
+    </div>
+  
+    <div class="row">
+        <div class="col-md-12">
+        <h2>Photo Slider</h2>
+        <hr>
+        <p>Here I use slick.js to format the images from the external file in the requirements.</p>
+    </div>
+</div>
+    <div class="row ">
+        <div class="col-md-12 responsive"></div>
+    </div> 
+
+<div class="row">
+    <div class="col-md-12">
+    <h2>Dynamic Data</h2>
+    <hr>
+    <p>Data is loaded from the link in the requirments, and parsed to display name, email, company, about, photo, favorite sport, and gender</p>
+    </div>
+    <div class="row">
+    <div class="col-md-12">
+            <div id="test"></div>
+    </div>
+   
+
+</div>
+<div class="row">
+    <div class="col-md-12">
+    <h2>Quick Facts</h2>
+    <hr>
+    <p>These statements are generated using global variables and parsing through the external data. </p>
+    </div>
+    </div>
+<div class="row">
+        
+    <div class="col-md-6" id ="data"></div>
+    <div class="col-md-6" id ="test2"></div>
+</div> 
+
+    
+   <!-- jQuery  -->
+   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <!-- Bootstrap & Popper-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<!--   
+    C3 -->
+    <script src="js/d3.min.js"></script>
+    <script src="js/c3.min.js"></script>
+    <!-- Slick  -->
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+
+
+<script src = "js/scripts.js"></script>
+
+
+</body>
+</html>

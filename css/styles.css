@@ -1,0 +1,56 @@
+body{
+    padding:50px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.responsive{
+    margin:10px;
+    height:500px;
+    text-align: center;
+    
+    position:relative;
+    margin-bottom:50px;
+}
+.imgCar{
+  
+   height:500px;
+   display:inline-block;
+    
+}
+.slick-next, .slick-prev{
+    position:absolute;
+    top:100%;
+    background-color:transparent;
+    border:transparent;
+    font-size:2rem;
+}
+.slick-next{
+    left:40%;
+}
+.slick-prev{
+    right:80%;
+}
+.points{
+    color:darkred;
+}
+.dataDivs{
+    border:black 1px solid;
+    padding:10px;
+    border-radius: 5px;
+    margin-bottom:10px;
+}
+
+
+@media screen and (max-width: 480px) {
+    body{
+       margin:10px;
+    }
+    ul{
+        font-size:.5rem;
+    }
+    a{
+        font-size:5px;
+    }
+}
